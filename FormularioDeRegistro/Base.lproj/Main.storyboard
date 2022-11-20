@@ -35,7 +35,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Repetir contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="unN-QB-yod">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmar contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="unN-QB-yod">
                                         <rect key="frame" x="0.0" y="133" width="273" height="34.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -70,10 +70,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="confirmPasswordTextField" destination="unN-QB-yod" id="HVH-ZV-q4t"/>
                         <outlet property="createButton" destination="Bm6-jx-wid" id="zHj-7p-IgP"/>
                         <outlet property="emailTextField" destination="5Ml-BS-BNJ" id="byV-Z4-9ht"/>
                         <outlet property="passwordTextField" destination="ayS-4x-Uro" id="93q-Xb-U1f"/>
-                        <outlet property="repeatPasswordTextField" destination="unN-QB-yod" id="HVH-ZV-q4t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
