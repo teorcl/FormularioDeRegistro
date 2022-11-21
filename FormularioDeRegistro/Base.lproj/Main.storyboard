@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="u0N-vA-xqi">
-                                <rect key="frame" x="60" y="298" width="273" height="256"/>
+                                <rect key="frame" x="60" y="320.33333333333331" width="273" height="211.66666666666669"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crear una cuenta" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qah-Qf-5c9">
                                         <rect key="frame" x="0.0" y="0.0" width="273" height="34.333333333333336"/>
@@ -25,23 +25,23 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo electrónico" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Ml-BS-BNJ">
-                                        <rect key="frame" x="0.0" y="44.333333333333314" width="273" height="34.333333333333343"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo electrónico" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="5Ml-BS-BNJ">
+                                        <rect key="frame" x="0.0" y="44.333333333333371" width="273" height="34.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ayS-4x-Uro">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="ayS-4x-Uro">
                                         <rect key="frame" x="0.0" y="88.666666666666686" width="273" height="34.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmar contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="unN-QB-yod">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmar contraseña" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="unN-QB-yod">
                                         <rect key="frame" x="0.0" y="133" width="273" height="34.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bm6-jx-wid">
-                                        <rect key="frame" x="0.0" y="177.33333333333331" width="273" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="177.33333333333337" width="273" height="34.333333333333343"/>
                                         <color key="backgroundColor" red="0.086274509799999996" green="0.43529411759999997" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Crear">
@@ -51,8 +51,8 @@
                                             <action selector="createButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="mGh-TA-AZI"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKb-yX-vd1">
-                                        <rect key="frame" x="0.0" y="221.66666666666663" width="273" height="34.333333333333343"/>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKb-yX-vd1">
+                                        <rect key="frame" x="0.0" y="211.66666666666669" width="273" height="0.0"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -74,6 +74,7 @@
                         <outlet property="createButton" destination="Bm6-jx-wid" id="zHj-7p-IgP"/>
                         <outlet property="emailTextField" destination="5Ml-BS-BNJ" id="byV-Z4-9ht"/>
                         <outlet property="passwordTextField" destination="ayS-4x-Uro" id="93q-Xb-U1f"/>
+                        <outlet property="resultLabel" destination="kKb-yX-vd1" id="nUA-Cw-dRT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
